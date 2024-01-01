@@ -1072,6 +1072,30 @@ textarea {
 }
 
 
+
+
+#papachecos .sec-pad {
+    padding-top: 15rem;
+    padding-bottom: 0;
+    background-color: rgb(255, 255, 255);
+
+}
+
+#papachecos .projects__row-img {
+    padding: 3rem;
+}
+
+#papachecos .projects__row-content-desc {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
 /*akriila*/
 
 
@@ -1131,7 +1155,7 @@ textarea {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-auto-rows: auto;
-    padding: 1.5rem;
+    padding: 1.5rem 0;
     gap: 0;
 }
 

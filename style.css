@@ -975,6 +975,15 @@ textarea {
     }
 }
 
+#python-menu {
+    animation: python-barra 2s forwards;
+}
+@keyframes python-barra {
+    100% {
+        width: 40%;
+    }
+}
+
 #css-menu {
     animation: css-barra 2s forwards;
 }
@@ -1025,6 +1034,21 @@ textarea {
         width: 65%;
     }
 }
+
+#capcut-menu {
+    animation: capcut-barra 2s forwards;
+}
+
+@keyframes capcut-barra {
+    100% {
+        width: 100%;
+    }
+}
+
+
+
+
+
 
 #canva-menu {
     animation: canva-barra 2s forwards;
